@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "514555019974",
+    "firebase_url": "https://iotpetssystem-default-rtdb.firebaseio.com",
+    "project_id": "iotpetssystem",
+    "storage_bucket": "iotpetssystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514555019974:android:a7587e1c2413cfae124dc7",
+        "android_client_info": {
+          "package_name": "com.rehman.dogdaycaresystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514555019974-buod0no1iolki8cnkbi7keotc422tl7b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rehman.dogdaycaresystem",
+            "certificate_hash": "41726217185bb2987435b1789a6b609cb71bc1e7"
+          }
+        },
+        {
+          "client_id": "514555019974-9jttl2ekb4cierbltm7m2j0fid67lpje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo54we0wWpjNqpTeOFEXOOfu6bJ84ik2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514555019974-9jttl2ekb4cierbltm7m2j0fid67lpje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_primary"
+    tools:context=".LoginActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_animation"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/dog_lottie" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white"
+        android:background="@color/white"
+        android:elevation="10dp"
+        android:layout_below="@+id/lottie_animation"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/brown"
+                android:fontFamily="sans-serif-black"
+                android:textSize="24sp"
+                android:padding="9dp"
+                android:text="Login" />
+
+            <EditText
+                android:id="@+id/etUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/view_background"
+                android:drawableStart="@drawable/ic_profile"
+                android:drawableLeft="@drawable/ic_profile"
+                android:ems="10"
+                android:hint="Username"
+                android:drawablePadding="10dp"
+                android:inputType="textPersonName"
+                android:padding="15dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="#B7FFFFFF"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etUserPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:padding="15dp"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_custom_lock"
+                android:textColorHint="#AEFFFFFF"
+                android:textColor="@color/white"
+                android:background="@drawable/view_background"
+                android:inputType="textPassword"
+                android:hint="Password" />
+
+
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/brown"
+                android:padding="15dp"
+                android:text="LOGIN"
+                android:textColor="@color/white"
+                android:elevation="5dp"
+                app:cornerRadius="10dp" />
+
+
+            <Button
+                android:id="@+id/btnExit"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#600801"
+                android:padding="15dp"
+                android:text="App Exit"
+                android:textColor="@color/white"
+                android:elevation="5dp"
+                app:cornerRadius="10dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
